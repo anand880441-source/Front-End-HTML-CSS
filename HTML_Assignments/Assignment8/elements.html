@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+</head>
+
+<body id="top">
+    <h1>HTML Elements Showcase – Inline vs Block</h1>
+    <h3>Introduction: </h3>
+    <p>In HTML, elements are broadly divided into
+        two categories: block-level and inline.
+        Block elements take up the full width, while
+        inline elements only take as much space as needed.
+    </p>
+
+    <a href="#block elements">Block-level Elements</a>
+    <a href="#inline elements">Inline Elements</a>
+    <a href="#comparison table">Comparision Table</a><br><br><br><br>
+
+    
+    <section style="border: 2px solid gray;" id="block elements">
+        <h1><i>Block Elements</i></h1>
+        <h3><u>This is a paragraph</u></h3>
+        <p>Explanation: The &lt;p&gt; tag defines a block of text
+            that always starts on a new line.</p>
+
+        <h3><u>This is a Heading</u></h3>
+
+        <h1>This is heading with &lt;h1&gt;</h1>
+        <h2>This is heading with &lt;h2&gt;</h2>
+        <h3>This is heading with &lt;h3&gt;</h3>
+        <h4>This is heading with &lt;h4&gt;</h4>
+        <h5>This is heading with &lt;h5&gt;</h5>
+        <h6>This is heading with &lt;h6&gt;</h5>
+            <p>Explanation: Headings are block-level elements
+                that take the full width.</p>
+
+
+            <h3><u>Unorder-List</u></h3>
+
+            <ul>
+                <li>hello_1</li>
+                <li>hello_2</li>
+            </ul>
+            <p>Explanation: Displays a list of items with bullet points.</p>
+            <h3><u>Order-List</u></h3>
+
+            <ol>
+                <li>hello_1</li>
+                <li>hello_2</li>
+            </ol>
+            <p>Explanation: Displays a list of items with numbers or letters in sequence.</p>
+            <h3><u>Blockquote</u></h3>
+
+            <blockquote>
+                "Coding is the new literacy."
+            </blockquote>
+            <p>Explanation: Blockquote is a block container for quotations.</p>
+
+            <h3><u>horizontal line</u></h3>
+
+            <hr>
+            <p>Explanation: he &lt;hr&gt; tag in HTML is used to insert a horizontal line (thematic break) across the page, often to separate content.</p>
+            <h3><u>Table</u></h3>
+            <p>Explanation: table is created using the &lt;table&gt; tag, and it organizes data into rows and columns.</p>
+
+            <table style="border: 2px solid black; border-collapse: collapse;">
+                <tr>
+                    <th style="border: 2px solid black;">Name</th>
+                    <th style="border: 2px solid black;">Roll no.</th>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid black;">Anand Suthar</td>
+                    <td style="border: 2px solid black;">1</td>
+                </tr>
+            </table>
+    </section>
+    <br>
+    <section style="border: 2px solid gray;" id="inline elements">
+        <h2><i>Inline Elements</i></h2>
+
+        <h3><u>Span</u></h3>
+        <span style="border: 2px solid;">This is inside a span</span>
+        <p>Explanation: Span is an inline container with no new line.</p>
+
+        <h3><u>hyperlink</u></h3>
+        <a href="https://www.codinggita.com">click here</a>
+        <p>Explanation: The &lt;a&gt; tag in HTML is called the anchor tag, and it is used to create hyperlinks that connect to other web pages, sections, email, or files.</p>
+
+        <h3><u>text formatting tags</u></h3>
+        <p><b>This is bold</b> <i>This is italic</i> <u>This is underline</u> <strong>This is strong</strong> <em>This is Emphasis</em></p>
+        <p>Explanation: Text Formatting Elements are used to style or emphasize text. They can be presentational (style only) or semantic (carry meaning).</p>
+
+        <h4>Superscript</h4>
+        X<sup>2</sup>
+        <p>Explanation: Displays text as superscript (slightly above the line, e.g., x²).</p>
+        
+
+        <h4>Subscript</h4>
+        H<sub>2</sub>O
+        <p>Explanation: Displays text as subscript (slightly below the line, e.g., H₂O).</p>
+
+        <h4>Mark</h4>
+        <mark>This text is Marked </mark>
+        <p>Explanation: Highlights text with a yellow background by default.</p>
+
+
+        <h4>ABBR</h4>
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        <p>Explanation: Abbr defines an abbreviation.</p>
+
+        <h4>code</h4>
+        <code>
+            #include&lt;stdio.h&gt;
+            int main(){<br>
+            <pre>    printf("Hello World!"); </pre>
+            return 0;
+            }
+        </code>
+        <p>Explanation: This tag is used for code's</p>
+    </section>
+    <br>
+    <section style="border: 2px solid gray;" id="comparison table">
+        <h2><i>Comparison Table</i></h2>
+        <caption><b>Differences Between Inline and Block Elements</b></caption>
+
+        <table style="border: 2px solid black; border-collapse: collapse;">
+            <tr>
+                <th style="border: 2px solid black">Block Elements</th>
+                <th style="border: 2px solid black">Inline Elements</th>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;div&gt;</td>
+                <td style="border: 2px solid black">&lt;span&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;p&gt;</td>
+                <td style="border: 2px solid black">&lt;a&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;h1&gt;</td>
+                <td style="border: 2px solid black">&lt;b&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;ul&gt;</td>
+                <td style="border: 2px solid black">&lt;i&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;blockquote&gt;</td>
+                <td style="border: 2px solid black">&lt;abbr&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;table&gt;</td>
+                <td style="border: 2px solid black">&lt;code&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;hr&gt;</td>
+                <td style="border: 2px solid black">&lt;sup&gt;</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black">&lt;section&gt;</td>
+                <td style="border: 2px solid black">&lt;mark&gt;</td>
+            </tr>
+        </table>
+    </section>
+    <br><br>
+    <a href="#top">Back to Top</a>
+
+
+</body>
+
+</html>

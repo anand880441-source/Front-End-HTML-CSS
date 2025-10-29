@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <h1>CodingGita Feedback Form</h1>
+    <p>We value your feedback. Please fill out this form to help us improve.</p>
+
+    <form method="post" action="#">
+        <label for="name">Full Name: </label>
+        <input type="text"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email"><br><br>
+
+        <label type="selection">Which course/workshop are you giving feedback for?</label><br>
+        <select name="course">
+            <option value="MERN Stack">MERN Stack Course</option>
+            <option value="DSA">DSA Bootcamp</option>
+            <option value="Web Development">Web Development Workshop</option>
+        </select><br><br>
+
+        <label for="radio">Rate your experience: </label><br>
+        <input type="radio" name="radio" id="1 Star">
+        <label type="radio" for="1 Star">1 Star</label>
+        <input type="radio" name="radio" id="2 Stars">
+        <label type="radio" for="2 Stars">2 Stars</label>
+        <input type="radio" name="radio" id="3 Stars">
+        <label type="radio" for="3 Stars">3 Stars</label>
+        <input type="radio" name="radio" id="4 Stars">
+        <label type="radio" for="4 Stars">4 Stars</label>
+        <input type="radio" name="radio" id="5 Stars">
+        <label type="radio" for="5 Stars">5 Stars</label><br><br>
+
+        <label for="checkbox">What aspects are you giving feedback on? </label><br>
+        <input type="checkbox" name="checkbox" id="Content Quality">
+        <label type="checkbox" for="Content Quality">Content Quality</label><br>
+        <input type="checkbox" name="checkbox" id="Teaching Method">
+        <label type="checkbox" for="CTeaching Method">Teaching Method</label><br>
+        <input type="checkbox" name="checkbox" id="Support & Guidance">
+        <label type="checkbox" for="Support & Guidance">Support & Guidance</label><br>
+        <input type="checkbox" name="checkbox" id="Overall Experience">
+        <label type="checkbox" for="Overall Experience">Overall Experience</label><br><br>
+
+        <label type="Additional Suggestions">Additional Suggestions: </label><br>
+        <textarea for="Additional Suggestions"></textarea><br><br>
+
+        <label for="range">How satisfied are you? (1–10 scale)</label><br>
+        <input type="range" min="1" max="10"><br><br>
+
+        <label for="radio">Would you recommend us to a friend?</label><br>
+        <input type="radio" name="radio" id="Yes">
+        <label type="radio" for="Yes">Yes</label>
+        <input type="radio" name="radio" id="No">
+        <label type="radio" for="No">No</label><br><br>
+
+        <label for="date">Date of Feedback: </label>
+        <input type="date"><br><br>
+
+
+        
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
